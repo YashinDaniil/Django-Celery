@@ -1,0 +1,61 @@
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+button {
+    width: 140px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.table-wrapper {
+    height: 500px;
+    overflow: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    max-height: 300px;
+}
+
+table thead {
+    position: sticky;
+    top: 0;
+}
+
+table tbody {
+    width: 300px;
+}
+
+th, td {
+    width: 25%;
+    padding: 10px;
+}
+
+.table th {
+    border-top: none;
+}
+
+.taskIdCol {
+    width: 40%;
+}
+
+.otherCol {
+    width: 20%;
+}
+
+.success-row {
+    background-color: #00C851;
+    color: white;
+}
